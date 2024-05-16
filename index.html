@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediPal</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>MediPal</h1>
+    </header>
+    <main>
+        <section id="intro">
+            <p>Immediate Medical Based Answers</p>
+        </section>
+        <section id="chatbox">
+            <form id="questionForm">
+                <input type="text" id="userInput" placeholder="Type your question here..." required>
+                <button type="submit">Ask</button>
+            </form>
+            <div id="response"></div>
+        </section>
+        <section id="registration">
+            <h2>User Registration</h2>
+            <form id="registrationForm">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sithole-Masibula System</p>
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-database.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
