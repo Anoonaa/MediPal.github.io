@@ -1,2 +1,2 @@
 # MediPal.github.io
-Team Project for  the portfolio project from ALX
+ A medical question answering system

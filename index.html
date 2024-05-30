@@ -1,44 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="icon" type="image/png" href="./assets/icon.png"/>
+    <script src="./script.js"></script>
     <title>MediPal</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- Include Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>MediPal</h1>
-    </header>
+        <nav>
+          <h1 class="logo">MediPal</h1> 
+          <ul class="nav-right-section">
+            <li>
+              <a href="https://login.medipal.com/account">Log In</a>
+            </li>
+            <li>
+              <a href="https://signup.medipal.com/account">Sign Up</a>
+            </li>
+            <li class="menu-icon"></li>
+            <li>
+              <a href=""><img src="wwww.icon.com" /></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      
+
     <main>
-        <section id="intro">
-            <p>Immediate Medical Based Answers</p>
-        </section>
-        <section id="chatbox">
-            <form id="questionForm">
-                <input type="text" id="userInput" placeholder="Type your question here..." required>
-                <button type="submit">Ask</button>
-            </form>
-            <div id="response"></div>
-        </section>
-        <section id="registration">
-            <h2>User Registration</h2>
-            <form id="registrationForm">
-                <input type="text" id="username" placeholder="Username" required>
-                <input type="email" id="email" placeholder="Email" required>
-                <input type="password" id="password" placeholder="Password" required>
-                <button type="submit">Register</button>
-            </form>
-        </section>
+      <section class="main-input">
+        <div class="main-input-container">
+          <span class="search-icon"> </span>
+          <input type="text" name="" id="" />
+          <a class="micro-icon" href=""></a>
+        </div>
+      </section>
+
+      <section class="main-buttons">
+        <div>
+          <button>Ask a medical question</button>
+        </div>
+        <div>
+      </section>   
     </main>
+
     <footer>
-        <p>&copy; 2024 Sithole-Musabula System</p>
+      <ul class="footer-left">
+        <li><a href="https://about.google">About</a></li>
+        <li><a href="https://ads.google.com">Newsletter</a></li>
+        <li><a href="https://smallbusiness.withgoogle.com"></a></li>
+      </ul>
+      <ul class="footer-right">
+        <li><a href="">Privacy</a></li>
+        <li><a href="">Terms</a></li>
+        <li><a href="">Settings</a></li>
+      </ul>
+      <p class="copyright">Copyright &copy; 2024 Sithole Masabula systems</p> 
+      
+<script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-database.js"></script>
+<script src="scripts.js"></script>
+
     </footer>
-    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-database.js"></script>
-    <script src="scripts.js"></script>
-</body>
+  </body>
 </html>
