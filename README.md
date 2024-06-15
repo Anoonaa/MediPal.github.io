@@ -7,6 +7,7 @@
 
 ###                                                  How To Run 
 >  Currently, the app is accessible via localhost for testing purposes. Our ongoing goal is to deploy it to a public hosting service for broader accessibility.
+####
  > install python 3.7 or higher
 > install flask and openai
 >                                                       run app.py
