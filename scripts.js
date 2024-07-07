@@ -7,6 +7,6 @@ $('.uis-form-icon').on('click', function(){
 	$(this).siblings('input').focusout(function(e){
 		$(this).removeClass('uis-active');
 		$(this).siblings('i').removeClass('uis-active');
-		$(this).val('')
+		$(this).val('');
 	})
 })
